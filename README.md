@@ -2,7 +2,7 @@
 
 Página de merch do Machine Gun Kelly criada como projeto de estudo, usando HTML, CSS e JavaScript puro (sem frameworks).
 
-🔗 **Ver o site:** https://gibraga.github.io/mgk-page/
+🔗 **Ver o site:** https://www.onlinegdb.com/edit/lgdS7DAq1
 
 ## Funcionalidades
 
@@ -21,7 +21,7 @@ Página de merch do Machine Gun Kelly criada como projeto de estudo, usando HTML
 
 ## Como rodar
 
-Clique e abra o `site mgk.html` no navegador. Não precisa instalar nada.
+Baixe os arquivos e abra o `index.html` no navegador. Não precisa instalar nada.
 
 ## Estrutura
 
