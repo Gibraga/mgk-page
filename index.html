@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de fã de Machine Gun Kelly: merch, ingressos e músicas.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Machine Gun Kelly Official Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#home"><img src="logo.png" alt="Machine Gun Kelly"></a>
+            <button class="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#merch">Merch</a></li>
+                <li><a href="#tickets">Tickets</a></li>
+                <li><a href="#listen">Listen</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner" id="home">
+            <div class="texto">
+                <h1 class="titulo">Mainstream Sellout</h1>
+                <h2 class="sub_titulo" data-text="Life in Pink">Life in Pink</h2>
+                <div class="botoes">
+                    <a class="btn n-overlay" href="#listen">Learn More</a>
+                    <a class="btn overlay" href="#tickets">Buy Tickets Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bloco reveal" id="merch">
+            <h2 class="secao">Merch</h2>
+            <p class="sub">Monte sua lista de desejos. <strong>Favoritos: <span id="contador">0</span></strong></p>
+            <div class="grid">
+                <article class="card card-merch" data-id="camiseta">
+                    <div class="capa">👕</div>
+                    <div class="info"><h3>Camiseta</h3><p>Em breve</p><button type="button" class="fav">♡ Quero</button></div>
+                </article>
+                <article class="card card-merch" data-id="moletom">
+                    <div class="capa">🧥</div>
+                    <div class="info"><h3>Moletom</h3><p>Em breve</p><button type="button" class="fav">♡ Quero</button></div>
+                </article>
+                <article class="card card-merch" data-id="poster">
+                    <div class="capa">🖼️</div>
+                    <div class="info"><h3>Pôster</h3><p>Em breve</p><button type="button" class="fav">♡ Quero</button></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="bloco reveal" id="tickets">
+            <h2 class="secao">Tickets</h2>
+            <p class="sub">As datas ainda não foram divulgadas. Deixe seu e-mail para ser avisado.</p>
+            <form id="form-tickets" class="form linha" novalidate>
+                <label class="sr" for="email-tickets">E-mail</label>
+                <input id="email-tickets" name="email" type="email" placeholder="seu@email.com" autocomplete="email">
+                <button type="submit" class="btn overlay">Avise-me</button>
+                <p class="msg" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section class="bloco reveal" id="listen">
+            <h2 class="secao">Listen</h2>
+            <p class="sub">Álbuns para ouvir.</p>
+            <div class="grid">
+                <article class="card">
+                    <div class="capa texto-capa">2020</div>
+                    <div class="info"><h3>Tickets to My Downfall</h3></div>
+                </article>
+                <article class="card">
+                    <div class="capa texto-capa">2022</div>
+                    <div class="info"><h3>Mainstream Sellout</h3></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="bloco reveal" id="contact">
+            <h2 class="secao">Contact Us</h2>
+            <form id="form-contato" class="form" novalidate>
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" autocomplete="name">
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" autocomplete="email">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                <button type="submit" class="btn overlay">Enviar</button>
+                <p class="msg" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="ano">2026</span> Página de fã criada como projeto de estudo. Marca e imagens pertencem aos seus donos.</p>
+    </footer>
+</body>
+</html>
