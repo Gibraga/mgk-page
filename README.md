@@ -2,7 +2,7 @@
 
 Página de merch do Machine Gun Kelly criada como projeto de estudo, usando HTML, CSS e JavaScript puro (sem frameworks).
 
-🔗 **Ver o site:** https://SEU-USUARIO.github.io/mgk-fan-page/
+🔗 **Ver o site:** (https://github.com/Gibraga/mgk-page/blob/main/site%20mgk.html)
 
 ## Funcionalidades
 
